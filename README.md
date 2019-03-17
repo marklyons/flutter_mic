@@ -1,6 +1,4 @@
 # flutter_mic
-<<<<<<< HEAD
-
 A Flutter package that allows you to read raw PCM output from a device's microphone. In progress!
 
 ## Getting Started
@@ -13,6 +11,3 @@ Android and/or iOS.
 For help getting started with Flutter, view our
 [online documentation](https://flutter.io/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-=======
-A Flutter package that allows you to read raw PCM output from a device's microphone.
->>>>>>> 6746e452b460fd5de6a454910dc7dfb3c554a5ed
