@@ -76,7 +76,7 @@ public class SwiftFlutterMicPlugin: NSObject, FlutterPlugin {
        or something like that. So this just splits it up into two packets. The procedure is kind of
        convoluted but I genuinely couldn't find good documentation on this stuf.. */
       let pcmSample = Array(UnsafeBufferPointer(start: buffer.floatChannelData![0], count: Int(buffer.frameLength)))
-      
+      print(pcmSample)
       /*
       let pcmSample_b1 = pcmSample[0..<2205]
       let pcmSample_b2 = pcmSample[2205..<4410]
